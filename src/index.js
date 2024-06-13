@@ -5,5 +5,8 @@ function handleSearchSubmit(event) {
   cityElement.innerHTML = searchInput.value;
 }
 
+// add API key
+// call API
+
 let searchFormElement = document.querySelector("#search-form");
 searchFormElement.addEventListener("submit", handleSearchSubmit);

@@ -18,7 +18,6 @@ function refreshWeather(response) {
   windElement.innerHTML = `${wind}km/h`;
 
   let date = new Date(response.data.time * 1000);
-
   let timeElement = document.querySelector("#time");
   timeElement.innerHTML = formatDate(date);
 

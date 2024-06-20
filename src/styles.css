@@ -92,6 +92,15 @@ main {
   font-size: 28px;
 }
 
+.weather-forecast {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.row {
+  vertical-align: auto;
+}
+
 footer {
   border-top: 1px solid #00000010;
   padding-top: 30px;
